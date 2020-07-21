@@ -1,14 +1,36 @@
+body{
+    text-align: center;
+}
+
 .container{
     border: 3px solid black;
+    height: 40px;
+    
 
 }
-@media (max-width: 600px){
+@media (max-width: 900px){
     .container {
         border: 3px dashed blue;
+        background-color: rgb(124, 146, 211);
+        color:whitesmoke;
+        height: 40px;
+
     }
 }
-@media (max-width:  300px){
+@media (max-width:  600px){
     .container {
         border: 3px solid red;
+        margin: auto ;
+        
+        
+    }
+}
+@media (max-width: 900px){
+    .container-two{
+        background-color:rgb(36, 131, 36) ;
+        color: honeydew;
+        width: 200px;
+        height: 200px;
+        margin: auto;
     }
 }
